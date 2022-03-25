@@ -1,8 +1,21 @@
+      ___           ___                                     ___           ___     
+     /|  |         /\  \                                   /\  \         /\__\    
+    |:|  |         \:\  \                     ___          \:\  \       /:/ _/_   
+    |:|  |          \:\  \                   /\__\          \:\  \     /:/ /\__\  
+  __|:|  |      ___  \:\  \   ___     ___   /:/__/      _____\:\  \   /:/ /:/ _/_ 
+ /\ |:|__|____ /\  \  \:\__\ /\  \   /\__\ /::\  \     /::::::::\__\ /:/_/:/ /\__\
+ \:\/:::::/__/ \:\  \ /:/  / \:\  \ /:/  / \/\:\  \__  \:\~~\~~\/__/ \:\/:/ /:/  /
+  \::/~~/~      \:\  /:/  /   \:\  /:/  /   ~~\:\/\__\  \:\  \        \::/_/:/  / 
+   \:\~~\        \:\/:/  /     \:\/:/  /       \::/  /   \:\  \        \:\/:/  /  
+    \:\__\        \::/  /       \::/  /        /:/  /     \:\__\        \::/  /   
+     \/__/         \/__/         \/__/         \/__/       \/__/         \/__/    
+
+
 # KuLine
 A kline endpoint pagination system for Kucoin's API.
 
 ## Why KuLine?
-Kucoin's kline endpoint is limited to a single call which only produces 1500 rows of OHLCV data. This endpoint lacks native support for pagination and outputs far too little data to properly backtest algo trading theories. With 1500 rows the OHLCV history of a 15min chart would show at most 15 days worth of data. KuLine aims to patch this lack of functionality by forcibly paginating the data through a looped series of endpoint requests. The json data gathered is then appended into a single .csv file. The response data are as follows: time, open, close, high, low, volume, turnover. 
+Kucoin's kline endpoint is limited to a single call which only produces 1500 rows of OHLCV data. This endpoint lacks native support for pagination and outputs far too little data to properly backtest algo trading theories. With 1500 rows the OHLCV history of a 15min chart would show at most 15 days worth of data. KuLine aims to patch this lack of functionality by forcibly paginating the data through a looped series of endpoint requests. The json data gathered is then appended into a single .csv file. The response data are as follows: time, open, close, high, low, volume, turnover.
 
 ## User Configured Variables
 - api_rate_limit

@@ -18,7 +18,10 @@ git clone git@github.com:krnewberry/KuLine.git
 - time_begin
 
 ### Pair Format Example: 
-pair = "ETH-BTC" (for ethereum/bitcoin)
+```
+pair = "ETH-BTC"
+```
+This represents the pairing of ETH/BTC
 
 ### Candle Type Format Example:
 candle_type = "1min" (This represents a 1 minute candle chart. See additional options below)

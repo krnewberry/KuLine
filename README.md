@@ -63,7 +63,7 @@ See below for the additional candle types and their corresponding value in secon
 ```
 time_begin = 1566789720
 ```
-1566789720 or Sun Aug 25 2019 23:22:00 GMT-0400 (Eastern Daylight Time) is the furthest back that kucoin's API will go. You can choose any date after 1566789720 but it needs to be converted into UTC seconds. A link to do the conversion has been provided below.
+```1566789720``` or Sun Aug 25 2019 23:22:00 GMT-0400 (Eastern Daylight Time) is the furthest back that kucoin's API will go. You can choose any date after 1566789720 but it needs to be converted into UTC seconds. A link to do the conversion has been provided below.
 
 ### USEFUL LINKS:
 - https://www.unixtimestamp.com

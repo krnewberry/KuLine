@@ -39,9 +39,10 @@ Here's another example:
 ```candle_type = "3min"```
 ```candle_type_in_seconds = 180```
 
-See below for the other candle type's and their corresponding seconds conversion.
+See below for the additionalother candle type and their corresponding seconds.
 
 ### Supported Candle Charts and Their Equivalent in Seconds.
+```candle_type```/```candle_type_in_seconds```
 - ```1min``` / ```60``` (seconds) 
 - ```3min``` / ```180```(seconds) 
 - ```5min``` / ```300```(seconds) 

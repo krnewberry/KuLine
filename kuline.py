@@ -42,7 +42,7 @@ while time_advance < time_end:
     json_data = data.json()
     if "data" not in json_data:
         print("Retrying:", json_data)
-        time.sleep(15)
+        time.sleep(10)
         continue
     time_advance += time_delta
 
@@ -55,6 +55,6 @@ while time_advance < time_end:
     
     # OUTPUT MESSAGE
     time.sleep(api_rate_limit)
-    print("Capturing:",candle_type, pair,":", time_advance,"UTC, Time Delta:", time_delta)
+    print(f"Capturing: {candle_type} {pair} @ {time_advance} UTC")
 
 print("Completed...")

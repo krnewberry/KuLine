@@ -41,7 +41,7 @@ if ```candle_type = "3min"``` then
 
 See below for additional candle types and their corresponding value in seconds.
 
-### Supported Candle Charts and their Equivalent in Seconds.
+### Supported Candle Types and their Equivalent in Seconds.
 
 |```candle_type``` | ```candle_type_in_seconds```|
 | --- | --- |

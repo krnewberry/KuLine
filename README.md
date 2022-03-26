@@ -6,10 +6,10 @@ Kucoin's kline endpoint is limited to a single call which is limited to 1500 row
 
 ## Install
 
+### Using Github
 ```
-https://github.com/krnewberry/KuLine.git
+git clone git@github.com:krnewberry/KuLine.git
 ```
-
 
 ## User Configured Variables
 - pair

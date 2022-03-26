@@ -43,5 +43,5 @@ time_begin = 1566789720 (this is default and the furthest back that kucoin's API
 
 ### USEFUL LINKS:
 
-https://www.unixtimestamp.com
-https://docs.kucoin.com/#get-klines
+- https://www.unixtimestamp.com
+- https://docs.kucoin.com/#get-klines

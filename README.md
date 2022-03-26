@@ -41,20 +41,20 @@ Here's another example:
 
 See below for the other candle type's and their corresponding seconds conversion.
 
-### Supported Candle Charts and their equivalent in seconds.
+### Supported Candle Charts and Their Equivalent in Seconds.
 - ```1min``` / ```60``` (seconds) 
-- ```3min``` (180 seconds) 
-- ```5min``` (300 seconds) 
-- ```15min``` (900 seconds) 
-- ```30min``` (1800 seconds) 
-- ```1hour``` (3600 seconds) 
-- ```2hour``` (7200 seconds) 
-- ```4hour``` (14400 seconds) 
-- ```6hour``` (21600 seconds) 
-- ```8hour``` (28800 seconds) 
-- ```12hour``` (43200 seconds) 
-- ```1day``` (86400 seconds)
-- ```1week``` (604800 seconds)
+- ```3min``` / ```180```(seconds) 
+- ```5min``` / ```300```(seconds) 
+- ```15min``` / ```900```(seconds) 
+- ```30min``` / ```1800```(seconds)
+- ```1hour``` / ```3600```(seconds)
+- ```2hour``` / ```7200```(seconds) 
+- ```4hour``` / ```14400```(seconds) 
+- ```6hour``` / ```21600```(seconds) 
+- ```8hour``` / ```28800```(seconds) 
+- ```12hour``` / ```43200```(seconds) 
+- ```1day``` / ```86400```(seconds)
+- ```1week``` / ```604800```(seconds)
 
 ### Time Begin Format Example:
 ```

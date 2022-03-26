@@ -42,7 +42,7 @@ Here's another example:
 See below for the additionalother candle type and their corresponding seconds.
 
 ### Supported Candle Charts and Their Equivalent in Seconds.
-```candle_type```/```candle_type_in_seconds```
+```candle_type``` / ```candle_type_in_seconds```
 - ```1min``` / ```60``` (seconds) 
 - ```3min``` / ```180```(seconds) 
 - ```5min``` / ```300```(seconds) 

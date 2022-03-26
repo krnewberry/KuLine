@@ -17,19 +17,19 @@ git clone git@github.com:krnewberry/KuLine.git
 - ```candle_type_in_seconds```
 - ```time_begin```
 
-### Pair Format Example: 
+### Pair Example: 
 ```
 pair = "ETH-BTC"
 ```
 This represents the chart pairing of ETH/BTC
 
-### Candle Type Format Example:
+### Candle Type Example:
 ```
 candle_type = "1min"
 ```
 This represents a 1 minute candle chart.
 
-### Candle Type in Seconds Format Example:
+### Candle Type in Seconds Example:
 ```
 candle_type_in_seconds = 60
 ```
@@ -59,7 +59,7 @@ See below for additional candle types and their corresponding value in seconds.
 |1day | 86400|
 |1week | 604800|
 
-### Time Begin Format Example:
+### Time Begin Example:
 ```
 time_begin = 1566789720
 ```

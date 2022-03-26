@@ -14,7 +14,6 @@ git clone git@github.com:krnewberry/KuLine.git
 ## User Configured Variables
 - ```pair```
 - ```candle_type```
-- ```candle_type_in_seconds```
 - ```time_begin```
 
 ### Pair Example: 
@@ -29,23 +28,13 @@ candle_type = "1min"
 ```
 This represents a 1 minute candle chart.
 
-### Candle Type in Seconds Example:
-```
-candle_type_in_seconds = 60
-```
-This must match the equivalent amount of seconds in relation to the selected ```candle_type```. 
+See below for other supported candle types:
 
-For example:
-if ```candle_type = "3min"``` then
-```candle_type_in_seconds = 180```
-
-See below for additional candle types and their corresponding value in seconds.
-
-### Supported Candle Types and their Equivalent in Seconds.
+### Supported Candle Types
 
 |```candle_type``` |
 | --- | 
-|"1min" | 
+|1min | 
 |3min |
 |5min |
 |15min |

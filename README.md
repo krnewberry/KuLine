@@ -39,4 +39,6 @@ candle_type_in_seconds = 60 (this needs to match the amount of seconds in the ca
 - 1week (604800 sec.)
 
 ### Time Begin Format Example:
-time_begin = 1566789720 (this is default and the furthest back kucoin's api will go. You can choose any date after this but it needs to be in UTC (seconds) format.
+time_begin = 1566789720 (this is default and the furthest back kucoin's api will go. You can choose any date after this but it needs to be converted in UTC seconds.
+
+https://www.unixtimestamp.com

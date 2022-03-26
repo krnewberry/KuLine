@@ -36,19 +36,19 @@ candle_type_in_seconds = 60
 This must match the amount of seconds in the candle chart you've chosen. See below for seconds conversions.
 
 ### Supported Candle Charts and their equivalent in seconds.
-- 1min (60 seconds) 
-- 3min (180 seconds) 
-- 5min (300 seconds) 
-- 15min (900 seconds) 
-- 30min (1800 seconds) 
-- 1hour (3600 seconds) 
-- 2hour (7200 seconds) 
-- 4hour (14400 seconds) 
-- 6hour (21600 seconds) 
-- 8hour (28800 seconds) 
-- 12hour (43200 seconds) 
-- 1day (86400 seconds)
-- 1week (604800 seconds)
+- ```1min``` (60 seconds) 
+- ```3min``` (180 seconds) 
+- ```5min``` (300 seconds) 
+- ```15min``` (900 seconds) 
+- ```30min``` (1800 seconds) 
+- ```1hour``` (3600 seconds) 
+- ```2hour``` (7200 seconds) 
+- ```4hour``` (14400 seconds) 
+- ```6hour``` (21600 seconds) 
+- ```8hour``` (28800 seconds) 
+- ```12hour``` (43200 seconds) 
+- ```1day``` (86400 seconds)
+- ```1week``` (604800 seconds)
 
 ### Time Begin Format Example:
 ```

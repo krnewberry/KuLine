@@ -5,14 +5,17 @@ from datetime import datetime, timezone
 
 # USER CONFIGURED VARIABLES
 pair = "ETH-BTC"
-candle_type = "1min"
-candle_type_in_seconds = 60
+candle_type = "3min"
 time_begin = 1566789720
 
 # KUCOIN API
 api_url = "https://api.kucoin.com"
 api_max_json_rows = 1500
 api_rate_limit = 1
+
+# DICTIONARY
+candle_type_seconds_equiv = {"1min": 60, "3min": 180, "5min": 300, "15min": 900, "30min": 1800, "1hour": 3600, "2hour": 7200, "4hour": 14400, "6hour": 21600, "8hour": 28800, "12hour": 43200, "1day": 86400, "1week": 604800}
+candle_type_in_seconds = candle_type_seconds_equiv[candle_type]
 
 # TIME
 time_end = round(datetime.now().replace(tzinfo=timezone.utc).timestamp())
@@ -38,7 +41,7 @@ while time_advance < time_end:
 	    params = api_parameters,
 	    headers = {"content-type":"application/json"})
     
-    # ERROR CHECK, RETRY
+    # ERROR CHECK, RETRY 
     json_data = data.json()
     if "data" not in json_data:
         print("Retrying:", json_data)

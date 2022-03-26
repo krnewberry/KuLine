@@ -39,7 +39,7 @@ For example:
 if ```candle_type = "3min"``` then
 ```candle_type_in_seconds = 180```
 
-See below for the additional candle types and their corresponding value in seconds.
+See below for additional candle types and their corresponding value in seconds.
 
 ### Supported Candle Charts and their Equivalent in Seconds.
 

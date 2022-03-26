@@ -29,8 +29,6 @@ candle_type = "1min"
 This represents a 1 minute candle chart. See below for supported candle types:
 
 ### Supported Candle Types
-
-|```candle_type``` |
 - 1min
 - 3min
 - 5min

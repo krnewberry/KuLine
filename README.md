@@ -33,7 +33,13 @@ This represents a 1 minute candle chart. See the additional options below.
 ```
 candle_type_in_seconds = 60
 ```
-This must match the amount of seconds in the candle chart you've chosen. See below for seconds conversions.
+This must match the amount of seconds in the candle chart you've chosen. 
+
+Here's another example:
+```candle_type = "3min"```
+```candle_type_in_seconds = 180```
+
+See below for additional candle types and their corresponding seconds conversion.
 
 ### Supported Candle Charts and their equivalent in seconds.
 - ```1min``` (60 seconds) 

@@ -3,16 +3,16 @@ import pandas as pd
 import time
 from datetime import datetime, timezone
 
-# KUCOIN API
-api_url = "https://api.kucoin.com"
-api_max_json_rows = 1500
-api_rate_limit = 1
-
 # USER CONFIGURED VARIABLES
 pair = "ETH-BTC"
 candle_type = "1min"
 candle_type_in_seconds = 60
 time_begin = 1566789720
+
+# KUCOIN API
+api_url = "https://api.kucoin.com"
+api_max_json_rows = 1500
+api_rate_limit = 1
 
 # TIME
 time_end = round(datetime.now().replace(tzinfo=timezone.utc).timestamp())

@@ -12,7 +12,7 @@ git clone git@github.com:krnewberry/KuLine.git
 ```
 
 ## User Configured Variables
-- pair
+- ```pair```
 - candle_type
 - candle_type_in_seconds
 - time_begin
@@ -24,10 +24,16 @@ pair = "ETH-BTC"
 This represents the pairing of ETH/BTC
 
 ### Candle Type Format Example:
-candle_type = "1min" (This represents a 1 minute candle chart. See additional options below)
+```
+candle_type = "1min" 
+```
+This represents a 1 minute candle chart. See additional options below
 
 ### Candle Type in Seconds Format Example:
-candle_type_in_seconds = 60 (this needs to match the amount of seconds in the candle chart you've chosen (1min = 60, 3min = 180, etc.)
+```
+candle_type_in_seconds = 60
+```
+This needs to match the amount of seconds in the candle chart you've chosen (1min = 60, 3min = 180, etc.).
 
 ### Supported Candle Charts and their equivalent in seconds.
 - 1min (60 seconds) 
@@ -45,7 +51,10 @@ candle_type_in_seconds = 60 (this needs to match the amount of seconds in the ca
 - 1week (604800 seconds)
 
 ### Time Begin Format Example:
-time_begin = 1566789720 (this is default and the furthest back that kucoin's API will go. You can choose any date after 1566789720 as the start time but it needs to be converted into UTC seconds.
+```
+time_begin = 1566789720 
+```
+This is default and the furthest back that kucoin's API will go. You can choose any date after 1566789720 as the start time but it needs to be converted into UTC seconds.
 
 ### USEFUL LINKS:
 - https://www.unixtimestamp.com

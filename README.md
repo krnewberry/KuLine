@@ -45,9 +45,9 @@ See below for the additional candle type and their corresponding value in second
 
 |```candle_type``` | ```candle_type_in_seconds```|
 | --- | --- |
-| ```1min``` | ```60```|
-| ```3min``` | ```180```|
-| ```5min``` | ```300```|
+| 1min | 60|
+| 3min | 180|
+| 5min | 300|
 | ```15min``` | ```900```|
 | ```30min``` | ```1800```|
 | ```1hour``` | ```3600```|

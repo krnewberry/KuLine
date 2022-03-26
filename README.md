@@ -33,7 +33,7 @@ This represents a 1 minute candle chart.
 ```
 candle_type_in_seconds = 60
 ```
-This must match the amount of equivalent seconds in the candle chart that you've selected. 
+This must match the amount of equivalent seconds to the selected candle type. 
 
 Here's another example:
 if ```candle_type = "3min"``` then

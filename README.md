@@ -26,7 +26,7 @@ This represents the chart pairing of ETH/BTC
 ```
 candle_type = "1min"
 ```
-This represents a 1 minute candle chart. See below for supported candle types:
+This represents a 1 minute candle chart. See below for other supported ```candle_type``` values:
 
 ### Supported Candle Types
 - 1min

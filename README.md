@@ -29,19 +29,19 @@ candle_type = "1min"
 This represents a 1 minute candle chart. See below for other supported ```candle_type``` values:
 
 #### Supported ```candle_type``` values:
-```"1min"```
-```"3min"```
-```"5min"```
-- 15min
-- 30min
-- 1hour
-- 2hour
-- 4hour
-- 6hour
-- 8hour
-- 12hour
-- 1day
-- 1week
+- ```"1min"```
+- ```"3min"```
+- ```"5min"```
+- ```"15min"```
+- ```"30min"```
+- ```"1hour"```
+- ```"2hour"```
+- ```"4hour"```
+- ```"6hour"```
+- ```"8hour"```
+- ```"12hour"```
+- ```"1day"```
+- ```"1week"```
 
 ### Time Begin Example:
 ```

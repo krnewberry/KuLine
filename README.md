@@ -37,7 +37,7 @@ This must match the amount of equivalent seconds in the candle chart that you've
 
 Here's another example:
 if ```candle_type = "3min"``` then
-```candle_type_in_seconds = 180``` should be corresponding value
+```candle_type_in_seconds = 180``` should be the corresponding value.
 
 See below for the additional candle type and their corresponding value in seconds.
 

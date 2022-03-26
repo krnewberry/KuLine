@@ -18,7 +18,7 @@ api_rate_limit = 1 (in seconds)
 pair = "ETH-BTC" (for ethereum/bitcoin)
 
 ### Candle Type Format Example:
-candle_type = "1min" (1 minute candle charts. See additional options below)
+candle_type = "1min" (This represents a 1 minute candle chart. See additional options below)
 
 ### Candle Type in Seconds Format Example:
 candle_type_in_seconds = 60 (this needs to match the amount of seconds in the candle chart you've chosen (1min = 60, 3min = 180, etc.)

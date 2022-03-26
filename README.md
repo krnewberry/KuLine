@@ -2,7 +2,7 @@
 A kline endpoint pagination system for Kucoin's API.
 
 ## Why KuLine?
-Kucoin's kline endpoint is limited to a single call which is limited to 1500 rows of OHLCV data. This endpoint lacks native support for pagination and outputs far too little data to properly backtest algo trading strategies. With 1500 rows the OHLCV history of a 15min chart would show at most 15 days worth of data. KuLine aims to patch this lack of functionality by forcibly paginating the data through a looped series of endpoint requests. The json data gathered is then appended into a single .csv file. The response data captured are as follows: time, open, close, high, low, volume, turnover. 
+Kucoin's kline endpoint is limited to a single call which is only 1500 rows of OHLCV data. This endpoint lacks native support for pagination and outputs far too little data to properly backtest algo trading strategies. With 1500 rows the OHLCV history of a 15min chart would show at most 15 days worth of data. KuLine aims to patch this lack of functionality by forcibly paginating the data through a looped series of endpoint requests. The json data gathered is then appended into a single .csv file. The response data captured are as follows: time, open, close, high, low, volume, turnover. 
 
 ## Install
 

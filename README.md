@@ -25,20 +25,23 @@ candle_type_in_seconds = 60 (this needs to match the amount of seconds in the ca
 
 ### Supported Candle Charts and their equivalent in seconds.
 - 1min (60 seconds) 
-- 3min (180 sec.) 
-- 5min (300 sec.) 
-- 15min (900 sec.) 
-- 30min (1800 sec.) 
-- 1hour (3600 sec.) 
-- 2hour (7200 sec.) 
-- 4hour (14400 sec.) 
-- 6hour (21600 sec.) 
-- 8hour (28800 sec.) 
-- 12hour (43200 sec.) 
-- 1day (86400 sec.)
-- 1week (604800 sec.)
+- 3min (180 seconds) 
+- 5min (300 seconds) 
+- 15min (900 seconds) 
+- 30min (1800 seconds) 
+- 1hour (3600 seconds) 
+- 2hour (7200 seconds) 
+- 4hour (14400 seconds) 
+- 6hour (21600 seconds) 
+- 8hour (28800 seconds) 
+- 12hour (43200 seconds) 
+- 1day (86400 seconds)
+- 1week (604800 seconds)
 
 ### Time Begin Format Example:
-time_begin = 1566789720 (this is default and the furthest back kucoin's api will go. You can choose any date after this but it needs to be converted in UTC seconds.
+time_begin = 1566789720 (this is default and the furthest back that kucoin's API will go. You can choose any date after 1566789720 as the start time but it needs to be converted into UTC seconds.
+
+### USEFUL LINKS:
 
 https://www.unixtimestamp.com
+https://docs.kucoin.com/#get-klines

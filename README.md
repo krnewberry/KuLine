@@ -43,9 +43,9 @@ See below for additional candle types and their corresponding value in seconds.
 
 ### Supported Candle Types and their Equivalent in Seconds.
 
-|```candle_type``` | ```candle_type_in_seconds```|
-| --- | --- |
-|1min | 60|
+|```candle_type``` |
+| --- | 
+|1min | 
 |3min | 180|
 |5min | 300|
 |15min | 900|

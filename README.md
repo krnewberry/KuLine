@@ -45,19 +45,19 @@ See below for additional candle types and their corresponding value in seconds.
 
 |```candle_type``` |
 | --- | 
-|1min | 
-|3min | 180|
-|5min | 300|
-|15min | 900|
-|30min | 1800|
-|1hour | 3600|
-|2hour | 7200| 
-|4hour | 14400|
-|6hour | 21600|
-|8hour | 28800|
-|12hour | 43200|
-|1day | 86400|
-|1week | 604800|
+|"1min" | 
+|3min |
+|5min |
+|15min |
+|30min |
+|1hour |
+|2hour |
+|4hour |
+|6hour |
+|8hour |
+|12hour |
+|1day |
+|1week |
 
 ### Time Begin Example:
 ```

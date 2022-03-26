@@ -16,17 +16,20 @@ Kucoin's kline endpoint is limited to a single call which is limited to 1500 row
 - ```time_begin```
 
 ### Pair Format Example: 
-```pair = "ETH-BTC"
+```
+pair = "ETH-BTC"
 ```
 This represents the pairing of ETH/BTC
 
 ### Candle Type Format Example:
-```candle_type = "1min"
+```
+candle_type = "1min"
 ```
 This represents a 1 minute candle chart. See additional options below
 
 ### Candle Type in Seconds Format Example:
-```candle_type_in_seconds = 60
+```
+candle_type_in_seconds = 60
 ```
 This needs to match the amount of seconds in the candle chart you've chosen (1min = 60, 3min = 180, etc.).
 
@@ -46,7 +49,8 @@ This needs to match the amount of seconds in the candle chart you've chosen (1mi
 - 1week (604800 seconds)
 
 ### Time Begin Format Example:
-```time_begin = 1566789720
+```
+time_begin = 1566789720
 ```
 This is default and the furthest back that kucoin's API will go. You can choose any date after 1566789720 as the start time but it needs to be converted into UTC seconds.
 

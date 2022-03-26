@@ -8,18 +8,18 @@ api_url = "https://api.kucoin.com"
 api_max_json_rows = 1500
 api_rate_limit = 1
 
-# CHART
+# USER CONFIGURED VARIABLES
 pair = "ETH-BTC"
-candle_type = "3min"
-candle_type_in_seconds = 180
+candle_type = "1min"
+candle_type_in_seconds = 60
+time_begin = 1566789720
 
 # TIME
-time_begin = 1566789720
 time_end = round(datetime.now().replace(tzinfo=timezone.utc).timestamp())
 time_delta = api_max_json_rows * candle_type_in_seconds
 time_advance = time_begin
 
-# INTERNAL
+# CSV NAMING CONVENTION
 csv_name = "Kucoin_" + pair + "_" + candle_type
 
 # API CALL & PAGINATION LOOP

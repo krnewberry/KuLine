@@ -20,8 +20,9 @@ time_end = round(datetime.now().replace(tzinfo=timezone.utc).timestamp())
 time_delta = api_max_json_rows * candle_type_in_seconds
 time_advance = time_begin
 
-# CSV NAMING CONVENTION
+# CSV
 csv_name = "Kucoin_" + pair + "_" + candle_type
+csv_header = True
 
 # API CALL & PAGINATION LOOP
 while time_advance < time_end:
@@ -52,7 +53,8 @@ while time_advance < time_end:
 	    columns = ["time","open","close","high","low","volume","turnover"])
     df["date"] = pd.to_datetime(df["time"], unit='s')
     df = df[["date","open","high","low","close"]]
-    df.to_csv(csv_name+'.csv', mode='a')
+    df.to_csv(csv_name+'.csv', mode='a', header=csv_header, index=False)
+    csv_header = False
     
     # OUTPUT MESSAGE
     time.sleep(api_rate_limit)

@@ -3,10 +3,12 @@ import pandas as pd
 import time
 from datetime import datetime, timezone
 
-# USER CONFIGURED VARIABLES
-pair = "ETH-BTC"
-candle_type = "3min"
-time_begin = 1566789720
+print("KuLine: A kline endpoint pagination system for Kucoin's API. \n")
+
+# INPUTS
+pair = input("Enter Pair: ").upper()
+candle_type = input("Candle Type: ")
+time_begin = int(input("Time Start: ") or 1566789720)
 
 # KUCOIN API
 api_url = "https://api.kucoin.com"
@@ -25,7 +27,8 @@ csv_name = "Kucoin_" + pair + "_" + candle_type
 csv_header = True
 
 # API CALL & PAGINATION LOOP
-while time_advance < time_end:
+
+while time_advance <= time_end + time_delta:
     
     # API PARAMETERS
     api_parameters = {
@@ -40,7 +43,7 @@ while time_advance < time_end:
 	    params = api_parameters,
 	    headers = {"content-type":"application/json"})
     
-    # ERROR CHECK, RETRY 
+    # ERROR CHECK, RETRY
     json_data = data.json()
     if "data" not in json_data:
         print("Retrying:", json_data)
@@ -53,11 +56,14 @@ while time_advance < time_end:
 	    columns = ["time","open","close","high","low","volume","turnover"])
     df["date"] = pd.to_datetime(df["time"], unit='s')
     df = df[["date","open","high","low","close"]]
+    df.sort_values(by='date', inplace=True)
+    # df.to_csv(csv_name+'.csv', mode='a', header=csv_header, chunksize=1000, index=False)
     df.to_csv(csv_name+'.csv', mode='a', header=csv_header, index=False)
     csv_header = False
-    
-    # OUTPUT MESSAGE
+
+    # REST & OUTPUT MESSAGE
     time.sleep(api_rate_limit)
     print(f"Capturing: {candle_type} {pair} @ {time_advance} UTC")
 
 print("Completed...")
+

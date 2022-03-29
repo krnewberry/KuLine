@@ -11,7 +11,7 @@ Kucoin's kline endpoint is limited to a single call which is only 1500 rows of O
 git clone git@github.com:krnewberry/KuLine.git
 ```
 
-### User Configured Variables
+### User Configured
 - ```pair```
 - ```candle_type```
 - ```time_begin```
@@ -26,7 +26,7 @@ This represents the chart pairing of ETH/BTC
 ```
 candle_type = "1min"
 ```
-This represents a 1 minute candle chart. See below for other supported ```candle_type``` values:
+This represents a 1 minute candle chart.
 
 ##### Supported ```candle_type``` values:
 ```"1min"```
@@ -47,7 +47,7 @@ This represents a 1 minute candle chart. See below for other supported ```candle
 ```
 time_begin = 1566789720
 ```
-```1566789720``` or Sun Aug 25 2019 23:22:00 GMT-0400 (Eastern Daylight Time) is the furthest back that kucoin's API will go. You can choose any date after ```1566789720``` but it needs to be converted into UTC seconds. A link to accomplish this conversion has been provided below.
+Leave this blank for the default which is ```1566789720``` or Sun Aug 25 2019 23:22:00 GMT-0400 (Eastern Daylight Time). This is the furthest back that kucoin's API will go. You can choose any date after ```1566789720``` but it needs to be converted into UTC seconds. A link to accomplish this conversion has been provided below.
 
 ### Useful Links:
 - https://www.unixtimestamp.com

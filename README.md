@@ -11,7 +11,7 @@ Kucoin's kline endpoint is limited to a single call which is only 1500 rows of O
 git clone git@github.com:krnewberry/KuLine.git
 ```
 
-### User Configured
+### User Configured Variables
 - ```pair```
 - ```candle_type```
 - ```time_begin```
@@ -24,7 +24,7 @@ This represents the chart pairing of ETH/BTC
 
 #### Candle Type Example:
 ```
-Candle Type = "1min"
+Candle Type = 1min
 ```
 This represents a 1 minute candle chart.
 

@@ -12,9 +12,9 @@ git clone git@github.com:krnewberry/KuLine.git
 ```
 
 ### User Configured Variables
-- ```pair```
-- ```candle_type```
-- ```time_begin```
+- ```Pair```
+- ```Candle Type```
+- ```Time Begin```
 
 #### Pair Example: 
 ```
@@ -28,20 +28,20 @@ Candle Type = 1min
 ```
 This represents a 1 minute candle chart.
 
-##### Supported ```candle_type``` values:
-```"1min"```
-```"3min"```
-```"5min"```
-```"15min"```
-```"30min"```
-```"1hour"```
-```"2hour"```
-```"4hour"```
-```"6hour"```
-```"8hour"```
-```"12hour"```
-```"1day"```
-```"1week"```
+##### Supported ```Candle Type``` values:
+```1min```
+```3min```
+```5min```
+```15min```
+```30min```
+```1hour```
+```2hour```
+```4hour```
+```6hour```
+```8hour```
+```12hour```
+```1day```
+```1week```
 
 #### Time Begin Example:
 ```

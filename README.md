@@ -10,7 +10,6 @@ Kucoin's kline endpoint is limited to a single call which is only 1500 rows of O
 ```
 git clone git@github.com:krnewberry/KuLine.git
 ```
-
 ### User Configured Variables
 - ```Pair```
 - ```Candle Type```

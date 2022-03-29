@@ -18,13 +18,13 @@ git clone git@github.com:krnewberry/KuLine.git
 
 #### Pair Example: 
 ```
-pair = "ETH-BTC"
+Pair = ETH-BTC
 ```
 This represents the chart pairing of ETH/BTC
 
 #### Candle Type Example:
 ```
-candle_type = "1min"
+Candle Type = "1min"
 ```
 This represents a 1 minute candle chart.
 
@@ -45,7 +45,7 @@ This represents a 1 minute candle chart.
 
 #### Time Begin Example:
 ```
-time_begin = 1566789720
+Time Begin = 1566789720
 ```
 Leave this blank for the default which is ```1566789720``` or Sun Aug 25 2019 23:22:00 GMT-0400 (Eastern Daylight Time). This is the furthest back that kucoin's API will go. You can choose any date after ```1566789720``` but it needs to be converted into UTC seconds. A link to accomplish this conversion has been provided below.
 
